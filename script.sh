@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#my fedora installation script (works only with fedora workstation!!)
+#my fedora installation script
 #===============#
 #improve dnf performance
 echo 'max_parallel_downloads=10
@@ -23,7 +23,7 @@ sudo dnf groupupdate sound-and-video -y
 
 #===============#
 #install native packages 
-sudo dnf install akmods neofetch pandoc texlive-scheme-basic gnome-tweaks distrobox gnome-console -y
+sudo dnf install akmods neofetch pandoc podman texlive-scheme-basic gnome-tweaks distrobox gnome-console -y
 #===============#
 
 #===============#

@@ -23,7 +23,7 @@ sudo dnf groupupdate sound-and-video -y
 
 #===============#
 #install native packages 
-sudo dnf install akmods neofetch pandoc podman texlive-scheme-basic gnome-tweaks distrobox gnome-console -y
+sudo dnf install akmods neofetch pandoc podman texlive-scheme-basic wireguard-tools gnome-tweaks distrobox gnome-console -y
 #===============#
 
 #===============#
@@ -55,15 +55,6 @@ sudo dnf install code -y
 #install flatpaks
 flatpak update -y
 flatpak install flathub org.mozilla.firefox org.libreoffice.LibreOffice com.mattjakeman.ExtensionManager com.bitwarden.desktop com.github.tchx84.Flatseal com.usebottles.bottles de.haeckerfelix.Fragments org.telegram.desktop com.github.micahflee.torbrowser-launcher org.racket_lang.Racket io.mpv.Mpv com.spotify.Client com.discordapp.Discord -y
-#===============#
-
-#===============#
-#configure mpv
-flatpak run io.mpv.Mpv
-echo"profile=gpu-hq
-save-position-on-quit
-vo=gpu-next
-pause" > ~/.var/app/io.mpv.Mpv/config/mpv/mpv.conf
 #===============#
 
 #===============#

@@ -8,6 +8,11 @@ fastestmirror=True' | sudo tee -a /etc/dnf/dnf.conf > /dev/null
 #===============#
 
 #===============#
+#why does this app even exist
+sudo dnf remove gnome-tour
+#===============#
+
+#===============#
 #upgrade the system
 sudo dnf upgrade -y 
 #===============#

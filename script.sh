@@ -9,7 +9,7 @@ fastestmirror=True' | sudo tee -a /etc/dnf/dnf.conf > /dev/null
 
 #===============#
 #remove gnome apps
-sudo dnf remove gnome-tour totem gnome-help -y
+sudo dnf remove gnome-tour totem -y
 #===============#
 
 #===============#

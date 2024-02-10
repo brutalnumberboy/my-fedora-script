@@ -34,7 +34,7 @@ sudo dnf install akmods neofetch pandoc podman mc fuse-encfs texlive-scheme-basi
 #===============#
 #remove gnome-boxes and install cockpit
 sudo dnf remove gnome-boxes -y
-sudo dnf install cockpit cockpit-machines libvirt -y
+sudo dnf install cockpit cockpit-machines libvirt virt-viewer -y
 sudo systemctl enable libvirtd
 #===============#
 

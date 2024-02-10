@@ -59,7 +59,7 @@ sudo dnf install code -y
 #===============#
 #install flatpaks
 flatpak update -y
-flatpak install flathub org.chromium.Chromium org.mozilla.firefox org.libreoffice.LibreOffice com.mattjakeman.ExtensionManager com.bitwarden.desktop com.github.tchx84.Flatseal com.usebottles.bottles de.haeckerfelix.Fragments org.telegram.desktop com.github.micahflee.torbrowser-launcher io.mpv.Mpv com.spotify.Client com.discordapp.Discord -y
+flatpak install flathub com.brave.Browser org.mozilla.firefox org.libreoffice.LibreOffice com.mattjakeman.ExtensionManager com.bitwarden.desktop com.github.tchx84.Flatseal org.qbittorrent.qBittorrent com.usebottles.bottles org.telegram.desktop com.github.micahflee.torbrowser-launcher io.mpv.Mpv com.discordapp.Discord -y
 #===============#
 
 #===============#

@@ -28,7 +28,7 @@ sudo dnf groupupdate sound-and-video -y
 
 #===============#
 #install native packages 
-sudo dnf install akmods neofetch pandoc podman mc fuse-encfs texlive-scheme-basic wireguard-tools gnome-tweaks gnome-console gnome-themes-extra adw-gtk3-theme -y
+sudo dnf install akmods neofetch pandoc podman mc texlive-scheme-basic wireguard-tools gnome-tweaks gnome-console gnome-themes-extra adw-gtk3-theme -y
 #===============#
 
 #===============#
